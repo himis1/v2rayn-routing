@@ -1,1 +1,37 @@
-
+[
+  {
+    "Id": "4903289783999947775",
+    "OutboundTag": "block",
+    "Domain": [
+      "geosite:category-ads-all"
+    ],
+    "Enabled": true,
+    "Remarks": "Block ads"
+  },
+  {
+    "Id": "5754369721005780102",
+    "OutboundTag": "direct",
+    "Ip": [
+      "geoip:private"
+    ],
+    "Enabled": true,
+    "Remarks": "Direct private IP"
+  },
+  {
+    "Id": "5179555598844024779",
+    "OutboundTag": "direct",
+    "Domain": [
+      "geosite:private",
+      "domain:corp.bztel.ru"
+    ],
+    "Enabled": true,
+    "Remarks": "Direct private/private-corp domains"
+  },
+  {
+    "Id": "4872609879951822046",
+    "Port": "0-65535",
+    "OutboundTag": "proxy",
+    "Enabled": true,
+    "Remarks": "Final proxy"
+  }
+]
