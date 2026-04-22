@@ -1,59 +1,53 @@
 [
   {
-    "Id": "6181924548184902416",
-    "InboundTag": [
+    "inboundTag": [
       "socks",
       "http",
       "socks2",
       "http2"
     ],
-    "OutboundTag": "proxy",
-    "Enabled": true,
-    "Remarks": "Backend override: local proxy inbounds always proxy"
+    "outboundTag": "proxy",
+    "enabled": true,
+    "remarks": "Backend override: local proxy inbounds always proxy"
   },
   {
-    "Id": "5600861101213644452",
-    "OutboundTag": "direct",
-    "Protocol": [
+    "outboundTag": "direct",
+    "protocol": [
       "bittorrent"
     ],
-    "Enabled": true,
-    "Remarks": "Direct BitTorrent"
+    "enabled": true,
+    "remarks": "Direct BitTorrent"
   },
   {
-    "Id": "4980338389873993919",
-    "OutboundTag": "block",
-    "Domain": [
+    "outboundTag": "block",
+    "domain": [
       "geosite:category-ads-all"
     ],
-    "Enabled": true,
-    "Remarks": "Block ads"
+    "enabled": true,
+    "remarks": "Block ads"
   },
   {
-    "Id": "4817839924248072034",
-    "OutboundTag": "direct",
-    "Ip": [
+    "outboundTag": "direct",
+    "ip": [
       "geoip:private"
     ],
-    "Enabled": true,
-    "Remarks": "Direct private IP"
+    "enabled": true,
+    "remarks": "Direct private IP"
   },
   {
-    "Id": "5456759625658272371",
-    "OutboundTag": "direct",
-    "Domain": [
+    "outboundTag": "direct",
+    "domain": [
       "geosite:private",
       "domain:corp.bztel.ru"
     ],
-    "Enabled": true,
-    "Remarks": "Direct private/private-corp domains"
+    "enabled": true,
+    "remarks": "Direct private/private-corp domains"
   },
   {
-    "Id": "4944591043685246894",
-    "Port": "",
-    "OutboundTag": "proxy",
-    "Ip": [],
-    "Domain": [
+    "port": "",
+    "outboundTag": "proxy",
+    "ip": [],
+    "domain": [
       "domain:youtube.com",
       "domain:youtu.be",
       "domain:youtube-nocookie.com",
@@ -154,15 +148,14 @@
       "domain:api.upcloud.com",
       "domain:speedtest.net"
     ],
-    "Process": [],
-    "Enabled": true,
-    "Remarks": "Proxy NetCheburnet domains"
+    "process": [],
+    "enabled": true,
+    "remarks": "Proxy NetCheburnet domains"
   },
   {
-    "Id": "4944318892863555210",
-    "Port": "0-65535",
-    "OutboundTag": "direct",
-    "Enabled": true,
-    "Remarks": "Final direct"
+    "port": "0-65535",
+    "outboundTag": "direct",
+    "enabled": true,
+    "remarks": "Final direct"
   }
 ]
