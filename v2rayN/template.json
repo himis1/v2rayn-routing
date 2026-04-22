@@ -1,11 +1,9 @@
 {
-  "version": "UMBRA-test",
+  "version": "UMBRA-v1",
   "routingItems": [
     {
       "remarks": "UMBRA Test Global",
-      "domainStrategy": "AsIs",
       "url": "https://raw.githubusercontent.com/himis1/v2rayn-routing/refs/heads/main/v2rayN/global.json"
     }
   ]
 }
-
