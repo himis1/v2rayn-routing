@@ -1,37 +1,33 @@
 [
   {
-    "Id": "4903289783999947775",
-    "OutboundTag": "block",
-    "Domain": [
+    "outboundTag": "block",
+    "domain": [
       "geosite:category-ads-all"
     ],
-    "Enabled": true,
-    "Remarks": "Block ads"
+    "enabled": true,
+    "remarks": "Block ads"
   },
   {
-    "Id": "5754369721005780102",
-    "OutboundTag": "direct",
-    "Ip": [
+    "outboundTag": "direct",
+    "ip": [
       "geoip:private"
     ],
-    "Enabled": true,
-    "Remarks": "Direct private IP"
+    "enabled": true,
+    "remarks": "Direct private IP"
   },
   {
-    "Id": "5179555598844024779",
-    "OutboundTag": "direct",
-    "Domain": [
+    "outboundTag": "direct",
+    "domain": [
       "geosite:private",
       "domain:corp.bztel.ru"
     ],
-    "Enabled": true,
-    "Remarks": "Direct private/private-corp domains"
+    "enabled": true,
+    "remarks": "Direct private/private-corp domains"
   },
   {
-    "Id": "4872609879951822046",
-    "Port": "0-65535",
-    "OutboundTag": "proxy",
-    "Enabled": true,
-    "Remarks": "Final proxy"
+    "port": "0-65535",
+    "outboundTag": "proxy",
+    "enabled": true,
+    "remarks": "Final proxy"
   }
 ]
