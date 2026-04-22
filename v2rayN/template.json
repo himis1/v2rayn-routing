@@ -1,20 +1,10 @@
 {
-  "version": "UMBRA-v1",
+  "version": "UMBRA-test",
   "routingItems": [
     {
-      "remarks": "Global",
+      "remarks": "UMBRA Test Global",
       "domainStrategy": "AsIs",
       "url": "https://raw.githubusercontent.com/himis1/v2rayn-routing/refs/heads/main/v2rayN/global.json"
-    },
-    {
-      "remarks": "RU Whitelist",
-      "domainStrategy": "IPOnDemand",
-      "url": "https://raw.githubusercontent.com/himis1/v2rayn-routing/refs/heads/main/v2rayN/ru_whitelist.json"
-    },
-    {
-      "remarks": "NetCheburnet",
-      "domainStrategy": "AsIs",
-      "url": "https://raw.githubusercontent.com/himis1/v2rayn-routing/refs/heads/main/v2rayN/netcheburnet.json"
     }
   ]
 }
