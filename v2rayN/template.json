@@ -1,17 +1,20 @@
 {
-  "version": "routing-v1",
+  "version": "UMBRA-v1",
   "routingItems": [
     {
       "remarks": "Global",
-      "url": "https://cdn.jsdelivr.net/gh/himis1/v2rayn-routing@main/v2rayN/global.json"
+      "domainStrategy": "AsIs",
+      "url": "https://raw.githubusercontent.com/himis1/v2rayn-routing/refs/heads/main/v2rayN/global.json"
     },
     {
       "remarks": "RU Whitelist",
-      "url": "https://cdn.jsdelivr.net/gh/himis1/v2rayn-routing@main/v2rayN/ru_whitelist.json"
+      "domainStrategy": "IPOnDemand",
+      "url": "https://raw.githubusercontent.com/himis1/v2rayn-routing/refs/heads/main/v2rayN/ru_whitelist.json"
     },
     {
       "remarks": "NetCheburnet",
-      "url": "https://cdn.jsdelivr.net/gh/himis1/v2rayn-routing@main/v2rayN/netcheburnet.json"
+      "domainStrategy": "AsIs",
+      "url": "https://raw.githubusercontent.com/himis1/v2rayn-routing/refs/heads/main/v2rayN/netcheburnet.json"
     }
   ]
 }
