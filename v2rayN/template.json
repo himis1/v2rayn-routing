@@ -1,1 +1,17 @@
-
+{
+  "version": "routing-v1",
+  "routingItems": [
+    {
+      "remarks": "Global",
+      "url": "https://cdn.jsdelivr.net/gh/himis1/v2ray-routing@main/v2rayN/global.json"
+    },
+    {
+      "remarks": "RU Whitelist",
+      "url": "https://cdn.jsdelivr.net/gh/himis1/v2ray-routing@main/v2rayN/ru_whitelist.json"
+    },
+    {
+      "remarks": "NetCheburnet",
+      "url": "https://cdn.jsdelivr.net/gh/himis1/v2ray-routing@main/v2rayN/netcheburnet.json"
+    }
+  ]
+}
