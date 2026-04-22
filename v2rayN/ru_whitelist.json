@@ -1,46 +1,41 @@
 [
   {
-    "Id": "5206675748014528707",
-    "OutboundTag": "direct",
-    "Protocol": [
+    "outboundTag": "direct",
+    "protocol": [
       "bittorrent"
     ],
-    "Enabled": true,
-    "Remarks": "Direct BitTorrent"
+    "enabled": true,
+    "remarks": "Direct BitTorrent"
   },
   {
-    "Id": "5416200587365101304",
-    "OutboundTag": "block",
-    "Domain": [
+    "outboundTag": "block",
+    "domain": [
       "geosite:category-ads-all"
     ],
-    "Enabled": true,
-    "Remarks": "Block ads"
+    "enabled": true,
+    "remarks": "Block ads"
   },
   {
-    "Id": "4819179325846013914",
-    "OutboundTag": "direct",
-    "Ip": [
+    "outboundTag": "direct",
+    "ip": [
       "geoip:private"
     ],
-    "Enabled": true,
-    "Remarks": "Direct private IP"
+    "enabled": true,
+    "remarks": "Direct private IP"
   },
   {
-    "Id": "5373836505873715342",
-    "OutboundTag": "direct",
-    "Domain": [
+    "outboundTag": "direct",
+    "domain": [
       "geosite:private",
       "domain:corp.bztel.ru",
       "domain:bztel.ru"
     ],
-    "Enabled": true,
-    "Remarks": "Direct private/private-corp domains"
+    "enabled": true,
+    "remarks": "Direct private/private-corp domains"
   },
   {
-    "Id": "5676295595264264404",
-    "OutboundTag": "proxy",
-    "Domain": [
+    "outboundTag": "proxy",
+    "domain": [
       "domain:youtube.com",
       "domain:youtu.be",
       "domain:youtube-nocookie.com",
@@ -140,24 +135,22 @@
       "domain:hub.upcloud.com",
       "domain:api.upcloud.com"
     ],
-    "Enabled": true,
-    "Remarks": "Proxy NetCheburnet domains before RU"
+    "enabled": true,
+    "remarks": "Proxy NetCheburnet domains before RU"
   },
   {
-    "Id": "5474399574914642101",
-    "OutboundTag": "proxy",
-    "Ip": [
+    "outboundTag": "proxy",
+    "ip": [
       "geoip:google",
       "geoip:facebook",
       "geoip:fastly"
     ],
-    "Enabled": true,
-    "Remarks": "Proxy Google/Facebook/Fastly IP ranges before RU"
+    "enabled": true,
+    "remarks": "Proxy Google/Facebook/Fastly IP ranges before RU"
   },
   {
-    "Id": "5203737798264361517",
-    "OutboundTag": "direct",
-    "Domain": [
+    "outboundTag": "direct",
+    "domain": [
       "domain:ru",
       "domain:su",
       "domain:рф",
@@ -233,23 +226,21 @@
       "domain:bztel.ru",
       "domain:corp.bztel.ru"
     ],
-    "Enabled": true,
-    "Remarks": "Direct RU domains stable no-remote"
+    "enabled": true,
+    "remarks": "Direct RU domains stable no-remote"
   },
   {
-    "Id": "4706338290860504345",
-    "OutboundTag": "direct",
-    "Ip": [
+    "outboundTag": "direct",
+    "ip": [
       "geoip:ru"
     ],
-    "Enabled": true,
-    "Remarks": "Direct RU IP"
+    "enabled": true,
+    "remarks": "Direct RU IP"
   },
   {
-    "Id": "5197747878964213045",
-    "Port": "0-65535",
-    "OutboundTag": "proxy",
-    "Enabled": true,
-    "Remarks": "Final proxy"
+    "port": "0-65535",
+    "outboundTag": "proxy",
+    "enabled": true,
+    "remarks": "Final proxy"
   }
 ]
