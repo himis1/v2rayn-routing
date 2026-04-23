@@ -38,7 +38,14 @@
     "outboundTag": "direct",
     "domain": [
       "geosite:private",
-      "domain:corp.bztel.ru"
+      "domain:corp.bztel.ru",
+      "regexp:.*\\.corp\\.bztel\\.ru$",
+      "domain:bztel.ru",
+      "regexp:.*\\.bztel\\.ru$",
+      "domain:vault",
+      "domain:BZ_AD.corp.bztel.ru",
+      "domain:wpad.corp.bztel.ru",
+      "domain:remote.corp.bztel.ru"
     ],
     "enabled": true,
     "remarks": "Direct private/private-corp domains"
@@ -178,9 +185,24 @@
     "remarks": "Proxy STUN/TURN"
   },
   {
+    "outboundTag": "proxy",
+    "ip": [
+      "149.154.160.0/20",
+      "91.108.4.0/22",
+      "91.108.8.0/22",
+      "91.108.12.0/22",
+      "91.108.16.0/22",
+      "91.108.20.0/22",
+      "91.108.56.0/22",
+      "91.105.192.0/23",
+      "185.76.151.0/24"
+    ],
+    "enabled": true,
+    "remarks": "Proxy Telegram IP ranges"
+  },
+  {
     "port": "0-65535",
     "outboundTag": "direct",
     "enabled": true,
     "remarks": "Final direct"
   }
-]
