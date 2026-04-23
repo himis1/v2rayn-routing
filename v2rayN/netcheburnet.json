@@ -72,7 +72,6 @@
       "domain:mtalk.google.com",
       "domain:stun.l.google.com",
       "domain:google.com",
-      "domain:googleapis.cn",
 
       "domain:cloudflare.com",
       "domain:cloudflareinsights.com",
@@ -206,3 +205,4 @@
     "enabled": true,
     "remarks": "Final direct"
   }
+]
