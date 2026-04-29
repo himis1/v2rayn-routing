@@ -99,6 +99,9 @@
       "domain:discordapp.com",
       "domain:discordapp.net",
       "domain:discordcdn.com",
+      "domain:cdn.discordapp.com",
+      "domain:media.discordapp.net",
+      "domain:gateway.discord.gg",
       "domain:discord.media",
       "domain:discordstatus.com",
 
@@ -176,6 +179,17 @@
     ],
     "enabled": true,
     "remarks": "Proxy NetCheburnet domains"
+  },
+  {
+    "outboundTag": "proxy",
+    "processName": [
+      "Discord.exe",
+      "Update.exe",
+      "DiscordCanary.exe",
+      "DiscordPTB.exe"
+    ],
+    "enabled": true,
+    "remarks": "Proxy Discord process"
   },
   {
     "port": "3478",
