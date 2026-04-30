@@ -1,0 +1,186 @@
+[
+  {
+    "inboundTag": [
+      "socks",
+      "http",
+      "socks2",
+      "http2"
+    ],
+    "outboundTag": "proxy",
+    "enabled": true,
+    "remarks": "Backend override: local proxy inbounds always proxy"
+  },
+  {
+    "outboundTag": "direct",
+    "protocol": [
+      "bittorrent"
+    ],
+    "enabled": true,
+    "remarks": "Direct BitTorrent"
+  },
+  {
+    "outboundTag": "block",
+    "domain": [
+      "geosite:category-ads-all"
+    ],
+    "enabled": true,
+    "remarks": "Block ads"
+  },
+  {
+    "outboundTag": "direct",
+    "ip": [
+      "geoip:private"
+    ],
+    "enabled": true,
+    "remarks": "Direct private IP"
+  },
+  {
+    "outboundTag": "direct",
+    "domain": [
+      "geosite:private"
+    ],
+    "enabled": true,
+    "remarks": "Direct private domains"
+  },
+  {
+    "outboundTag": "proxy",
+    "domain": [
+      "domain:youtube.com",
+      "domain:youtu.be",
+      "domain:youtube-nocookie.com",
+      "domain:googlevideo.com",
+      "domain:ytimg.com",
+      "domain:ggpht.com",
+
+      "domain:remotedesktop.google.com",
+      "domain:remotedesktop-pa.googleapis.com",
+      "domain:instantmessaging-pa.googleapis.com",
+      "domain:googleapis.com",
+      "domain:gstatic.com",
+      "domain:googleusercontent.com",
+      "domain:accounts.google.com",
+      "domain:clients6.google.com",
+      "domain:clients4.google.com",
+      "domain:mtalk.google.com",
+      "domain:stun.l.google.com",
+      "domain:google.com",
+
+      "domain:telegram.org",
+      "domain:web.telegram.org",
+      "domain:k.web.telegram.org",
+      "domain:a.web.telegram.org",
+      "domain:z.web.telegram.org",
+      "domain:t.me",
+      "domain:telegram.me",
+      "domain:telegram.dog",
+      "domain:telegram-cdn.org",
+      "domain:cdn-telegram.org",
+      "domain:telegra.ph",
+      "domain:graph.org",
+
+      "domain:discord.com",
+      "domain:discord.gg",
+      "domain:discordapp.com",
+      "domain:discordapp.net",
+      "domain:discordcdn.com",
+      "domain:cdn.discordapp.com",
+      "domain:media.discordapp.net",
+      "domain:gateway.discord.gg",
+      "domain:discord.media",
+      "domain:discordstatus.com",
+
+      "domain:openai.com",
+      "domain:chatgpt.com",
+      "domain:chat.com",
+      "domain:sora.com",
+      "domain:oaistatic.com",
+      "domain:oaiusercontent.com",
+      "domain:auth.openai.com",
+      "domain:auth0.openai.com",
+
+      "domain:anthropic.com",
+      "domain:claude.ai",
+      "domain:console.anthropic.com",
+      "domain:perplexity.ai",
+      "domain:pplx.ai",
+      "domain:x.ai",
+      "domain:grok.com",
+      "domain:mistral.ai",
+      "domain:chat.mistral.ai",
+      "domain:deepseek.com",
+      "domain:deepseek.ai",
+      "domain:groq.com",
+      "domain:groqcloud.com",
+      "domain:poe.com",
+      "domain:quora.com",
+      "domain:character.ai",
+      "domain:characterai.io",
+      "domain:huggingface.co",
+      "domain:hf.co",
+      "domain:openrouter.ai",
+      "domain:replicate.com",
+      "domain:stability.ai",
+      "domain:clipdrop.co",
+      "domain:midjourney.com",
+      "domain:runwayml.com",
+      "domain:runwayml.cloud",
+      "domain:elevenlabs.io",
+      "domain:suno.com",
+      "domain:udio.com",
+      "domain:cursor.com",
+      "domain:cursor.sh",
+      "domain:anysphere.co",
+
+      "domain:github.com",
+      "domain:githubusercontent.com",
+      "domain:githubcopilot.com",
+
+      "domain:upcloud.com",
+      "domain:hub.upcloud.com",
+      "domain:api.upcloud.com",
+
+      "domain:speedtest.net"
+    ],
+    "enabled": true,
+    "remarks": "Proxy Cheburnet 2.0 domains"
+  },
+  {
+    "outboundTag": "proxy",
+    "processName": [
+      "Discord.exe",
+      "Update.exe",
+      "DiscordCanary.exe",
+      "DiscordPTB.exe"
+    ],
+    "enabled": true,
+    "remarks": "Proxy Discord process"
+  },
+  {
+    "port": "3478",
+    "outboundTag": "proxy",
+    "enabled": true,
+    "remarks": "Proxy STUN/TURN"
+  },
+  {
+    "outboundTag": "proxy",
+    "ip": [
+      "149.154.160.0/20",
+      "91.108.4.0/22",
+      "91.108.8.0/22",
+      "91.108.12.0/22",
+      "91.108.16.0/22",
+      "91.108.20.0/22",
+      "91.108.56.0/22",
+      "91.105.192.0/23",
+      "185.76.151.0/24"
+    ],
+    "enabled": true,
+    "remarks": "Proxy Telegram IP ranges"
+  },
+  {
+    "port": "0-65535",
+    "outboundTag": "direct",
+    "enabled": true,
+    "remarks": "Final direct"
+  }
+]
