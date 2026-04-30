@@ -146,7 +146,7 @@
   },
   {
     "outboundTag": "proxy",
-    "processName": [
+    "process": [
       "Discord.exe",
       "Update.exe",
       "DiscordCanary.exe",
@@ -156,10 +156,17 @@
     "remarks": "Proxy Discord process"
   },
   {
-    "port": "3478",
     "outboundTag": "proxy",
+    "port": "3478",
     "enabled": true,
     "remarks": "Proxy STUN/TURN"
+  },
+  {
+    "outboundTag": "proxy",
+    "network": "udp",
+    "port": "3478,50000-65535",
+    "enabled": true,
+    "remarks": "Proxy RTC UDP"
   },
   {
     "outboundTag": "proxy",
